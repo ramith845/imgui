@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.10...3.21)
 
 project(imgui VERSION 1.0.0 LANGUAGES C CXX)
-add_subdirectory(backends)
+# add_subdirectory(backends)
 
 add_library(Imgui STATIC imgui.h 
                          imgui.cpp 
